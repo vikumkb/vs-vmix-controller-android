@@ -24,6 +24,8 @@ A plain USB cable without USB tethering is not an IP network.
 
 ## Build
 
+GitHub Actions automatically builds the Android APK on every push to `main`.
+
 ```bash
 gradle :app:assembleDebug
 ```
